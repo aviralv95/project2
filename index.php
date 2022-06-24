@@ -42,7 +42,7 @@ if (isset($_POST['username'])){
 <br>
 <input name="submit" type="submit" value="Login" />
 </form>
-<p>Not registered yet? <a href='registration.php'>Register Here</a></p>
+<p>Not registered? <a href='registration.php'>Register</a></p>
 </div>
 <?php } ?>
 </body>
