@@ -29,7 +29,7 @@ if (isset($_POST['username'])){
 	    header("Location: start.php");
          }else{
 	echo "<div class='form'>
-<h3>Username/password is incorrect.</h3>
+<h3>Username/Password incorrect.</h3>
 <br/>Click here to <a href='index.php'>Login</a></div>";
 	}
     }else{

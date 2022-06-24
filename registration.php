@@ -32,7 +32,7 @@ if (isset($_POST['username']))
         if($result1)
         {
             echo "<div class='form'>
-            <h3>You are registered successfully.</h3>
+            <h3>Registration Successful</h3>
             <br/>Click here to start <a href='start.php'>Login</a></div>";
         }
   }  
@@ -43,7 +43,7 @@ else{
 ?>
 
 <div class="form">
-<h1>Register Here!!</h1>
+<h1>Register</h1>
 <form name="registration" action="" method="post">
 <input type="text" name="username" placeholder="username" required />
 <input type="Email" name="Email" placeholder="Email" required />
